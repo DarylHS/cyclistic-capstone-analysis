@@ -1,0 +1,9 @@
+data/
+outputs/
+.cache/
+weights/
+*.pt
+.env
+__pycache__/
+*.egg-info/
+.ipynb_checkpoints/

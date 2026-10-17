@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "planogram"
+version = "0.1.0"
+description = "Turn supermarket shelf photos into planograms"
+requires-python = ">=3.10"
+dependencies = [
+    "anthropic>=1.15",
+    "numpy",
+    "pandas",
+    "pillow",
+    "matplotlib",
+    "opencv-python-headless",
+]
+
+[project.optional-dependencies]
+detect = ["ultralytics"]
+clip = ["open_clip_torch"]
+dev = ["pytest", "jupyter"]
+
+[project.scripts]
+planogram = "planogram.cli:main"
+
+[tool.setuptools]
+packages = ["planogram"]
