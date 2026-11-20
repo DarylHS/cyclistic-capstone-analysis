@@ -31,7 +31,7 @@ Cyclistic, a bike-share company based in Chicago, wants to increase its annual m
 
 ### 1. 🗓️ Ride Frequency by Weekday
 - **Casual riders** peak on **Saturdays (409,685)** and **Sundays (332,636)**, reinforcing their use of the service for **weekend leisure**.
-- **Members** are most active during the **workweek**, especially **Wednesdays (557,010)** and **Tuesdays (539,334)**, suggesting **weekday commuting**.
+- **Members** are most active during the **workweek**, especially **Wednesdays (557,010)** and **Thursdays (546,829)**, suggesting **weekday commuting**.
 
 ### 2. ⏱️ Ride Duration Differences
 | User Type | Average Ride Length |
